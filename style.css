@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.global {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -13px 5px;
+}
+
+.fa-ellipsis-vertical {
+    font-size: 24px;
+}
+
+.post {
+    display: block;
+    background-color: white;
+    width: 358px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.titulo h1 {
+    font-size: 15px;
+}
+
+.titulo h2 {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.titulo h1+h2 {
+    margin-top: -15px;
+
+}
+
+.logo {
+    font-size: 25px;
+}
+
+.menu {
+    margin-left: 100px;
+
+}
+
+img {
+    width: 378px;
+    height: auto;
+    margin: -10px;
+    margin-top: 8px
+}
+
+.guardar {
+    margin: -37px 5px -10px 333px;
+}
+
+.post-icons {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.post-body {
+    margin-top: 30px;
+    font-size: small;
+}
